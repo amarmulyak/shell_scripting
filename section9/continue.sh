@@ -7,7 +7,7 @@ do
 	((VAR++))
 	if [ "$VAR" -eq 2 ]
 	then
-		continue
+		continue # restarts the loop
 	fi
 	echo "$VAR"
 done	
