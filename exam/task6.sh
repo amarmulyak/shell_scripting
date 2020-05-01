@@ -1,7 +1,7 @@
 #!/bin/bash
 
-while read E1 E2 E3 E4 E5
-do
-	echo "$E2"
-done < ./text6.md
+# This script sorts tab-separated table by third field in descending order
 
+FILE=text6.md
+
+sort -t$'\t' -k3r $FILE

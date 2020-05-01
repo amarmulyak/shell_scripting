@@ -14,4 +14,4 @@ do
 		echo "This program is designed to print first 100 lines in the file"
 		break
 	fi
-done < ./text.md
+done < ./text3.md

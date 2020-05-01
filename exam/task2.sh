@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# This script asks x and y and compare them
+# This script asks X and Y and compares them
 
-echo "This program compare X and Y values between each other"
+echo "This program compares X and Y values between each other"
 read -p "Type value for X: " VAR_X
 read -p "Type value for Y: " VAR_Y
 
